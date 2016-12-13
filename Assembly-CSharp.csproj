@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{13D7866D-D201-A334-6E2B-B1267101C3BB}</ProjectGuid>
+    <ProjectGuid>{54EC3846-304B-F0B2-2618-07D99B3BDCEC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -47,6 +47,8 @@
   <ItemGroup>
      <Compile Include="Assets\Plugs\OBJExport\OBJExporter.cs" />
      <Compile Include="Assets\ScriptableAssets\Scriptables\Destructible.cs" />
+     <Compile Include="Assets\Scripts\Destroy.cs" />
+     <Compile Include="Assets\Scripts\GUI_Scripts.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Global\CameraController.cs" />
      <Compile Include="Assets\Scripts\MainCharSpawer.cs" />

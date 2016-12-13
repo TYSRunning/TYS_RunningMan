@@ -7,7 +7,7 @@ public class MainCharSpawer : MonoBehaviour {
 	private GameManager gm;
 	void Start () {
 		gm = GameManager.GetInstance();
-		gm.gameStartEvent.AddListener(OnGameStart);
+		//gm.gameStartEvent.AddListener(OnGameStart);
 	}
 
 	void Update () {

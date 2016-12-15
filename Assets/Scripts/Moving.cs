@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class Moving : MonoBehaviour {
+
 	public float speed = 10.0f;
 	[SerializeField] private Animator anim;
 	private float tim;
@@ -12,8 +13,6 @@ public class Moving : MonoBehaviour {
 	private Rigidbody rigidbody;
 
 	void Start () {
-		//fireRate = 2.0f;
-		//nextFire = 0.0f;
 		Init();
 	}
 	void Init(){
@@ -25,13 +24,10 @@ public class Moving : MonoBehaviour {
 	}
 	void FixedUpdate(){
 		if(Input.GetKeyDown (KeyCode.Space) ){
-				//if(fireRate > nextFire){
-					//nextFire += Time.deltaTime ;}
-				//else if(fireRate < nextFire){
-					//fireRate = nextFire;}
 				anim.SetTrigger("jump");
 				rigidbody.AddForce(Vector3.up*100);
-					//nextFire = 0.0f;
 			}
 		}
+
+
 	}

@@ -47,14 +47,18 @@
   <ItemGroup>
      <Compile Include="Assets\Plugs\OBJExport\OBJExporter.cs" />
      <Compile Include="Assets\ScriptableAssets\Scriptables\Destructible.cs" />
+     <Compile Include="Assets\Scripts\ChangeVoice.cs" />
      <Compile Include="Assets\Scripts\Destroy.cs" />
      <Compile Include="Assets\Scripts\GUI_Scripts.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Global\CameraController.cs" />
      <Compile Include="Assets\Scripts\Global\Pause.cs" />
+     <Compile Include="Assets\Scripts\Global\audioManager.cs" />
      <Compile Include="Assets\Scripts\MainCharSpawer.cs" />
      <Compile Include="Assets\Scripts\MainCharcter.cs" />
+     <Compile Include="Assets\Scripts\Main_Menu\BackMenu.cs" />
      <Compile Include="Assets\Scripts\Main_Menu\ScreenAdapt.cs" />
+     <Compile Include="Assets\Scripts\Main_Menu\Setting.cs" />
      <Compile Include="Assets\Scripts\Main_Menu\StartGame.cs" />
      <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\Moving.cs" />

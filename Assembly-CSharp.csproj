@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\MainCharSpawer.cs" />
      <Compile Include="Assets\Scripts\MainCharcter.cs" />
      <Compile Include="Assets\Scripts\Main_Menu\BackMenu.cs" />
+     <Compile Include="Assets\Scripts\Main_Menu\Developer.cs" />
      <Compile Include="Assets\Scripts\Main_Menu\ScreenAdapt.cs" />
      <Compile Include="Assets\Scripts\Main_Menu\Setting.cs" />
      <Compile Include="Assets\Scripts\Main_Menu\StartGame.cs" />

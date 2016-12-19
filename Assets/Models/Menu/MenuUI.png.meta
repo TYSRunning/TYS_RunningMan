@@ -1,0 +1,256 @@
+fileFormatVersion: 2
+guid: ef25477704c1bbc4b855cba2f8497001
+timeCreated: 1482130660
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Start_normal
+    21300002: Start_click
+    21300004: Continue_normal
+    21300006: Setting_normal
+    21300008: Setting_click
+    21300010: Contine_click
+    21300012: Exit_normal
+    21300014: Exit_click
+    21300016: Returnmenu_normal
+    21300018: Developer_normal
+    21300020: Developer_click
+    21300022: Returnmenu_click
+    21300024: ReStart_normal
+    21300026: Restart_click
+    21300028: MenuUI_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Start_normal
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 628.8
+        width: 341.33334
+        height: 157.20001
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5000002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Start_click
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 628.8
+        width: 341.33337
+        height: 157.20001
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5000002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Continue_normal
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 628.8
+        width: 341.33337
+        height: 157.20001
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5000002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Setting_normal
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 471.8
+        width: 341.33334
+        height: 157.20001
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5000002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Setting_click
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 471.8
+        width: 341.33337
+        height: 157.20001
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5000002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Contine_click
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 471.8
+        width: 341.33337
+        height: 157.20001
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5000002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Exit_normal
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 314.8
+        width: 341.33334
+        height: 157.20001
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Exit_click
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 314.8
+        width: 341.33337
+        height: 157.20001
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Returnmenu_normal
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 314.8
+        width: 341.33337
+        height: 157.20001
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Developer_normal
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 157.8
+        width: 341.33334
+        height: 157.2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.49999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Developer_click
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 157.8
+        width: 341.33337
+        height: 157.2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.49999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Returnmenu_click
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 157.8
+        width: 341.33337
+        height: 157.2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.49999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ReStart_normal
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.80000305
+        width: 341.33334
+        height: 157.2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Restart_click
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 0.80000305
+        width: 341.33337
+        height: 157.2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

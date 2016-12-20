@@ -3,10 +3,14 @@ using System.Collections;
  
 public class audioManager : MonoBehaviour {
  
-    void Start() {
+	public AudioSource Audio;
+	float BGMvolume;
+	void Awake() {
+
 
 		DontDestroyOnLoad (GetComponent<AudioSource>());
     }
+
 
 
 }

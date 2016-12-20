@@ -4,6 +4,7 @@ using System.Collections;
 public class Moving : MonoBehaviour {
 
 	public float speed = 10.0f;
+	public AudioClip jumpSound;
 	[SerializeField] private Animator anim;
 	private float tim;
 
@@ -12,6 +13,11 @@ public class Moving : MonoBehaviour {
 	private float nextFire;
 	private Rigidbody rigidbody;
 
+	private AudioSource source;
+
+	void Awake(){
+		source = GetComponent<AudioSource>();
+		}
 	void Start () {
 		Init();
 	}
@@ -24,7 +30,8 @@ public class Moving : MonoBehaviour {
 	}
 	void FixedUpdate(){
 		if(Input.GetKeyDown (KeyCode.Space) ){
-				anim.SetTrigger("jump");
+			source.PlayOneShot (jumpSound, 1F);	
+			anim.SetTrigger("jump");
 				rigidbody.AddForce(Vector3.up*100);
 			}
 		}

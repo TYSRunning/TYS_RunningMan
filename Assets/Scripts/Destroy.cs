@@ -17,6 +17,7 @@ public class Destroy : MonoBehaviour {
 	void OnCollisionEnter(Collision col){
 		if(col.gameObject.name == "MainChar"){
 			Destroy(this.gameObject);
+
 			GUI_Scripts.Instance.AddScore(100);
 		}
 		

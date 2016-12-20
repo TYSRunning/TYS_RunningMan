@@ -66,6 +66,7 @@
      <Compile Include="Assets\Scripts\Pause_Menu\ContinueGame.cs" />
      <Compile Include="Assets\Scripts\Pause_Menu\RestartGame.cs" />
      <Compile Include="Assets\Scripts\Pause_Menu\ReturnMenu.cs" />
+     <Compile Include="Assets\Scripts\Test.cs" />
      <Compile Include="Assets\Scripts\Turn.cs" />
      <Compile Include="Assets\Scripts\Turn_left.cs" />
  <Reference Include="UnityEngine.UI">

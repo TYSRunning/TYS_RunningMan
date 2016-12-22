@@ -10,7 +10,7 @@ public class StartGame : MonoBehaviour {
 
 	public string levelname;//要装载的场景
 
-	public AudioSource sfxButton;//声音
+	public AudioSource audio;//声音
 
 	/*void OnMouseDown(){
 		GetComponent<GUITexture>().texture = active;
@@ -23,6 +23,10 @@ public class StartGame : MonoBehaviour {
 
 	}*/
 
+	void Awake(){
+		audio = GetComponent<AudioSource> ();
+	}
+
 	public void Click(){
 		StartCoroutine(PlaysfxButton ());
 		//Application.LoadLevel (levelname);
@@ -30,9 +34,8 @@ public class StartGame : MonoBehaviour {
 
 	}
 	IEnumerator PlaysfxButton (){
-		sfxButton=(GetComponent<AudioSource>());
-		sfxButton.Play();
-		yield return new WaitForSeconds(0.5f);
+		audio.Play();
+		yield return new WaitForSeconds(audio.clip.length);
 		Application.LoadLevel (levelname);
 	}
 

@@ -1,14 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
- 
+using UnityEngine.Audio;
 public class audioManager : MonoBehaviour {
  
-	public AudioSource Audio;
+	public AudioMixer mixer;
+
 	float BGMvolume;
 	void Awake() {
-
-
-		DontDestroyOnLoad (GetComponent<AudioSource>());
+		DontDestroyOnLoad (gameObject);
     }
 
 

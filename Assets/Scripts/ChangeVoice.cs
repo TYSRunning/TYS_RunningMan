@@ -7,7 +7,7 @@ public class ChangeVoice : MonoBehaviour {
 
 	public void ChangeVolume(){
 		Slider slider = GetComponent<Slider> ();
-		AudioSource source = GetComponent<AudioSource>();
-		source.volume = slider.value;
+		//AudioSource source = GameObject
+		//source.volume = slider.value;
 	}
 }

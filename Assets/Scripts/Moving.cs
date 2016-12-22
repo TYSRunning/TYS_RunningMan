@@ -30,6 +30,7 @@ public class Moving : MonoBehaviour {
 	}
 	void FixedUpdate(){
 		if(Input.GetKeyDown (KeyCode.Space) ){
+			gameObject.GetComponentInChildren<ParticleSystem> ().Play ();
 			source.PlayOneShot (jumpSound, 1F);	
 			anim.SetTrigger("jump");
 				rigidbody.AddForce(Vector3.up*100);

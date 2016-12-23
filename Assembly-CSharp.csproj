@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\Bgtrigger_cj.cs" />
      <Compile Include="Assets\Scripts\ChangeVoice.cs" />
      <Compile Include="Assets\Scripts\Coin.cs" />
+     <Compile Include="Assets\Scripts\Destroy.cs" />
      <Compile Include="Assets\Scripts\Destroyold.cs" />
      <Compile Include="Assets\Scripts\FX\CoinFX.cs" />
      <Compile Include="Assets\Scripts\GUI_Scripts.cs" />
